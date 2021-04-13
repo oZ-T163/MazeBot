@@ -318,7 +318,7 @@ void Search::Print() {
 	for ( int i = 0; i < BOARDSIZE; i++ ) {
         for ( int j = 0; j < BOARDSIZE; j++ ) {
             
-			if( mazeMap [i][j] == BLOCK ) cout << "¦";
+			if( mazeMap [i][j] == BLOCK ) cout << "B";
             else if(mazeMap [i][j] == START) cout << "S";
             else if( mazeMap [i][j] == E1 ) cout << "E";
             else if( mazeMap [i][j] == E2 ) cout << "F";
